@@ -1,0 +1,72 @@
+.calculator_area {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .result {
+        padding-bottom: 50px;
+    }
+
+    .abaixo {
+        color: #8e24aa;
+    }
+
+    .normal {
+        color: #4caf50;
+    }
+
+    .med {
+        color: #ffc107;
+    }
+
+    .grau1 {
+        color: #ff9800;
+    }
+    .grau2 {
+        color: #ff5722;
+    }
+
+    .grau3 {
+        color: #bf360c;
+    }
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    p {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+    
+    }
+
+        .textfield {
+            width: 40vmax;
+            padding: 0.5rem;
+            :hover {
+                color: red;
+                background-color:rgb(149, 209, 231);
+
+            }
+        }
+    
+}
+
+.body_element {
+    width: 40vmax;
+    padding: 1rem;
+}
+
+.tempcard {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+   
+   
+}
